@@ -1,0 +1,768 @@
+{
+    "regions": [
+        {
+            "region": "us-central-dfw-1",
+            "serverclasses": [
+                {
+                    "serverclass": "gp.vs1.small",
+                    "comparables": [
+                        {
+                            "cloud": "average",
+                            "price": "$0.009"
+                        },
+                        {
+                            "cloud": "aws",
+                            "class": "t2.micro",
+                            "price": "$0.003"
+                        },
+                        {
+                            "cloud": "azure",
+                            "class": "A1 v2",
+                            "price": "$0.004"
+                        },
+                        {
+                            "cloud": "gcp",
+                            "class": "n2-custom",
+                            "price": "$0.019"
+                        },
+                        {
+                            "cloud": "digitalocean",
+                            "class": "basic-regular",
+                            "price": "$0.009"
+                        }
+                    ]
+                },
+                {
+                    "serverclass": "gp.vs1.medium",
+                    "comparables": [
+                        {
+                            "cloud": "average",
+                            "price": "$0.023"
+                        },
+                        {
+                            "cloud": "aws",
+                            "class": "t2.medium",
+                            "price": "$0.020"
+                        },
+                        {
+                            "cloud": "azure",
+                            "class": "F2s",
+                            "price": "$0.013"
+                        },
+                        {
+                            "cloud": "gcp",
+                            "class": "n2-custom",
+                            "price": "$0.022"
+                        },
+                        {
+                            "cloud": "digitalocean",
+                            "class": "basic-regular",
+                            "price": "$0.036"
+                        }
+                    ]
+                },
+                {
+                    "serverclass": "gp.vs1.large",
+                    "comparables": [
+                        {
+                            "cloud": "average",
+                            "price": "$0.080"
+                        },
+                        {
+                            "cloud": "aws",
+                            "class": "m6g.xlarge",
+                            "price": "$0.065"
+                        },
+                        {
+                            "cloud": "azure",
+                            "class": "D4ps v5",
+                            "price": "$0.019"
+                        },
+                        {
+                            "cloud": "gcp",
+                            "class": "n2-standard-4",
+                            "price": "$0.050"
+                        },
+                        {
+                            "cloud": "digitalocean",
+                            "class": "general-regular",
+                            "price": "$0.188"
+                        }
+                    ]
+                },
+                {
+                    "serverclass": "gp.vs1.xlarge",
+                    "comparables": [
+                        {
+                            "cloud": "average",
+                            "price": "$0.162"
+                        },
+                        {
+                            "cloud": "aws",
+                            "class": "m6g.2xlarge",
+                            "price": "$0.136"
+                        },
+                        {
+                            "cloud": "azure",
+                            "class": "D8ps v5",
+                            "price": "$0.037"
+                        },
+                        {
+                            "cloud": "gcp",
+                            "class": "n2-standard-8",
+                            "price": "$0.100"
+                        },
+                        {
+                            "cloud": "digitalocean",
+                            "class": "general-regular",
+                            "price": "$0.375"
+                        }
+                    ]
+                },
+                {
+                    "serverclass": "gp.vs1.2xlarge",
+                    "comparables": [
+                        {
+                            "cloud": "average",
+                            "price": "$0.323"
+                        },
+                        {
+                            "cloud": "aws",
+                            "class": "m6g.4xlarge",
+                            "price": "$0.267"
+                        },
+                        {
+                            "cloud": "azure",
+                            "class": "D16ps v5",
+                            "price": "$0.074"
+                        },
+                        {
+                            "cloud": "gcp",
+                            "class": "n2-standard-16",
+                            "price": "$0.200"
+                        },
+                        {
+                            "cloud": "digitalocean",
+                            "class": "general-regular",
+                            "price": "$0.750"
+                        }
+                    ]
+                },
+                {
+                    "serverclass": "ch.vs1.medium",
+                    "comparables": [
+                        {
+                            "cloud": "average",
+                            "price": "$0.036"
+                        },
+                        {
+                            "cloud": "aws",
+                            "class": "c4.large",
+                            "price": "$0.047"
+                        },
+                        {
+                            "cloud": "azure",
+                            "class": "F2",
+                            "price": "$0.013"
+                        },
+                        {
+                            "cloud": "gcp",
+                            "class": "n2-custom",
+                            "price": "$0.022"
+                        },
+                        {
+                            "cloud": "digitalocean",
+                            "class": "cpu-regular",
+                            "price": "$0.063"
+                        }
+                    ]
+                },
+                {
+                    "serverclass": "ch.vs1.large",
+                    "comparables": [
+                        {
+                            "cloud": "average",
+                            "price": "$0.068"
+                        },
+                        {
+                            "cloud": "aws",
+                            "class": "c4.xlarge",
+                            "price": "$0.076"
+                        },
+                        {
+                            "cloud": "azure",
+                            "class": "F4",
+                            "price": "$0.026"
+                        },
+                        {
+                            "cloud": "gcp",
+                            "class": "n2-custom",
+                            "price": "$0.043"
+                        },
+                        {
+                            "cloud": "digitalocean",
+                            "class": "cpu-regular",
+                            "price": "$0.125"
+                        }
+                    ]
+                },
+                {
+                    "serverclass": "ch.vs1.xlarge",
+                    "comparables": [
+                        {
+                            "cloud": "average",
+                            "price": "$0.142"
+                        },
+                        {
+                            "cloud": "aws",
+                            "class": "c4.2xlarge",
+                            "price": "$0.181"
+                        },
+                        {
+                            "cloud": "azure",
+                            "class": "F8",
+                            "price": "$0.052"
+                        },
+                        {
+                            "cloud": "gcp",
+                            "class": "n2-custom",
+                            "price": "$0.087"
+                        },
+                        {
+                            "cloud": "digitalocean",
+                            "class": "cpu-regular",
+                            "price": "$0.250"
+                        }
+                    ]
+                },
+                {
+                    "serverclass": "ch.vs1.2xlarge",
+                    "comparables": [
+                        {
+                            "cloud": "average",
+                            "price": "$0.275"
+                        },
+                        {
+                            "cloud": "aws",
+                            "class": "c4.4xlarge",
+                            "price": "$0.323"
+                        },
+                        {
+                            "cloud": "azure",
+                            "class": "F16",
+                            "price": "$0.104"
+                        },
+                        {
+                            "cloud": "gcp",
+                            "class": "n2-custom",
+                            "price": "$0.172"
+                        },
+                        {
+                            "cloud": "digitalocean",
+                            "class": "cpu-regular",
+                            "price": "$0.500"
+                        }
+                    ]
+                },
+                {
+                    "serverclass": "mh.vs1.medium",
+                    "comparables": [
+                        {
+                            "cloud": "average",
+                            "price": "$0.058"
+                        },
+                        {
+                            "cloud": "aws",
+                            "class": "r4.large",
+                            "price": "$0.058"
+                        },
+                        {
+                            "cloud": "azure",
+                            "class": "E2s v5",
+                            "price": "$0.016"
+                        },
+                        {
+                            "cloud": "gcp",
+                            "class": "n2-highmem-2",
+                            "price": "$0.034"
+                        },
+                        {
+                            "cloud": "digitalocean",
+                            "class": "memory",
+                            "price": "$0.125"
+                        }
+                    ]
+                },
+                {
+                    "serverclass": "mh.vs1.large",
+                    "comparables": [
+                        {
+                            "cloud": "average",
+                            "price": "$0.119"
+                        },
+                        {
+                            "cloud": "aws",
+                            "class": "r4.xlarge",
+                            "price": "$0.124"
+                        },
+                        {
+                            "cloud": "azure",
+                            "class": "E4s v5",
+                            "price": "$0.033"
+                        },
+                        {
+                            "cloud": "gcp",
+                            "class": "n2-highmem-4",
+                            "price": "$0.068"
+                        },
+                        {
+                            "cloud": "digitalocean",
+                            "class": "memory",
+                            "price": "$0.250"
+                        }
+                    ]
+                },
+                {
+                    "serverclass": "mh.vs1.xlarge",
+                    "comparables": [
+                        {
+                            "cloud": "average",
+                            "price": "$0.235"
+                        },
+                        {
+                            "cloud": "aws",
+                            "class": "r4.2xlarge",
+                            "price": "$0.238"
+                        },
+                        {
+                            "cloud": "azure",
+                            "class": "E8s v5",
+                            "price": "$0.066"
+                        },
+                        {
+                            "cloud": "gcp",
+                            "class": "n2-highmem-8",
+                            "price": "$0.135"
+                        },
+                        {
+                            "cloud": "digitalocean",
+                            "class": "memory",
+                            "price": "$0.500"
+                        }
+                    ]
+                },
+                {
+                    "serverclass": "mh.vs1.2xlarge",
+                    "comparables": [
+                        {
+                            "cloud": "average",
+                            "price": "$0.463"
+                        },
+                        {
+                            "cloud": "aws",
+                            "class": "r4.4xlarge",
+                            "price": "$0.452"
+                        },
+                        {
+                            "cloud": "azure",
+                            "class": "E16s v5",
+                            "price": "$0.131"
+                        },
+                        {
+                            "cloud": "gcp",
+                            "class": "n2-highmem-16",
+                            "price": "$0.271"
+                        },
+                        {
+                            "cloud": "digitalocean",
+                            "class": "memory",
+                            "price": "$1.000"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "region": "us-east-iad-1",
+            "serverclasses": [
+                {
+                    "serverclass": "gp.vs1.small",
+                    "comparables": [
+                        {
+                            "cloud": "average",
+                            "price": "$0.009"
+                        },
+                        {
+                            "cloud": "aws",
+                            "class": "t2.micro",
+                            "price": "$0.003"
+                        },
+                        {
+                            "cloud": "azure",
+                            "class": "A1 v2",
+                            "price": "$0.004"
+                        },
+                        {
+                            "cloud": "gcp",
+                            "class": "n2-custom",
+                            "price": "$0.019"
+                        },
+                        {
+                            "cloud": "digitalocean",
+                            "class": "basic-regular",
+                            "price": "$0.009"
+                        }
+                    ]
+                },
+                {
+                    "serverclass": "gp.vs1.medium",
+                    "comparables": [
+                        {
+                            "cloud": "average",
+                            "price": "$0.019"
+                        },
+                        {
+                            "cloud": "aws",
+                            "class": "t2.medium",
+                            "price": "$0.016"
+                        },
+                        {
+                            "cloud": "azure",
+                            "class": "F2s",
+                            "price": "$0.013"
+                        },
+                        {
+                            "cloud": "gcp",
+                            "class": "n2-custom",
+                            "price": "$0.021"
+                        },
+                        {
+                            "cloud": "digitalocean",
+                            "class": "basic-regular",
+                            "price": "$0.026"
+                        }
+                    ]
+                },
+                {
+                    "serverclass": "gp.vs1.large",
+                    "comparables": [
+                        {
+                            "cloud": "average",
+                            "price": "$0.075"
+                        },
+                        {
+                            "cloud": "aws",
+                            "class": "m6g.xlarge",
+                            "price": "$0.050"
+                        },
+                        {
+                            "cloud": "azure",
+                            "class": "D4ps v5",
+                            "price": "$0.015"
+                        },
+                        {
+                            "cloud": "gcp",
+                            "class": "n2-standard-4",
+                            "price": "$0.047"
+                        },
+                        {
+                            "cloud": "digitalocean",
+                            "class": "general-regular",
+                            "price": "$0.188"
+                        }
+                    ]
+                },
+                {
+                    "serverclass": "gp.vs1.xlarge",
+                    "comparables": [
+                        {
+                            "cloud": "average",
+                            "price": "$0.152"
+                        },
+                        {
+                            "cloud": "aws",
+                            "class": "m6g.2xlarge",
+                            "price": "$0.109"
+                        },
+                        {
+                            "cloud": "azure",
+                            "class": "D8ps v5",
+                            "price": "$0.031"
+                        },
+                        {
+                            "cloud": "gcp",
+                            "class": "n2-standard-8",
+                            "price": "$0.092"
+                        },
+                        {
+                            "cloud": "digitalocean",
+                            "class": "general-regular",
+                            "price": "$0.375"
+                        }
+                    ]
+                },
+                {
+                    "serverclass": "gp.vs1.2xlarge",
+                    "comparables": [
+                        {
+                            "cloud": "average",
+                            "price": "$0.304"
+                        },
+                        {
+                            "cloud": "aws",
+                            "class": "m6g.4xlarge",
+                            "price": "$0.220"
+                        },
+                        {
+                            "cloud": "azure",
+                            "class": "D16ps v5",
+                            "price": "$0.062"
+                        },
+                        {
+                            "cloud": "gcp",
+                            "class": "n2-standard-16",
+                            "price": "$0.183"
+                        },
+                        {
+                            "cloud": "digitalocean",
+                            "class": "general-regular",
+                            "price": "$0.750"
+                        }
+                    ]
+                },
+                {
+                    "serverclass": "ch.vs1.medium",
+                    "comparables": [
+                        {
+                            "cloud": "average",
+                            "price": "$0.036"
+                        },
+                        {
+                            "cloud": "aws",
+                            "class": "c4.large",
+                            "price": "$0.049"
+                        },
+                        {
+                            "cloud": "azure",
+                            "class": "F2",
+                            "price": "$0.013"
+                        },
+                        {
+                            "cloud": "gcp",
+                            "class": "n2-custom",
+                            "price": "$0.021"
+                        },
+                        {
+                            "cloud": "digitalocean",
+                            "class": "cpu-regular",
+                            "price": "$0.063"
+                        }
+                    ]
+                },
+                {
+                    "serverclass": "ch.vs1.large",
+                    "comparables": [
+                        {
+                            "cloud": "average",
+                            "price": "$0.067"
+                        },
+                        {
+                            "cloud": "aws",
+                            "class": "c4.xlarge",
+                            "price": "$0.077"
+                        },
+                        {
+                            "cloud": "azure",
+                            "class": "F4",
+                            "price": "$0.025"
+                        },
+                        {
+                            "cloud": "gcp",
+                            "class": "n2-custom",
+                            "price": "$0.041"
+                        },
+                        {
+                            "cloud": "digitalocean",
+                            "class": "cpu-regular",
+                            "price": "$0.125"
+                        }
+                    ]
+                },
+                {
+                    "serverclass": "ch.vs1.xlarge",
+                    "comparables": [
+                        {
+                            "cloud": "average",
+                            "price": "$0.136"
+                        },
+                        {
+                            "cloud": "aws",
+                            "class": "c4.2xlarge",
+                            "price": "$0.165"
+                        },
+                        {
+                            "cloud": "azure",
+                            "class": "F8",
+                            "price": "$0.051"
+                        },
+                        {
+                            "cloud": "gcp",
+                            "class": "n2-custom",
+                            "price": "$0.080"
+                        },
+                        {
+                            "cloud": "digitalocean",
+                            "class": "cpu-regular",
+                            "price": "$0.250"
+                        }
+                    ]
+                },
+                {
+                    "serverclass": "ch.vs1.2xlarge",
+                    "comparables": [
+                        {
+                            "cloud": "average",
+                            "price": "$0.261"
+                        },
+                        {
+                            "cloud": "aws",
+                            "class": "c4.4xlarge",
+                            "price": "$0.285"
+                        },
+                        {
+                            "cloud": "azure",
+                            "class": "F16",
+                            "price": "$0.101"
+                        },
+                        {
+                            "cloud": "gcp",
+                            "class": "n2-custom",
+                            "price": "$0.157"
+                        },
+                        {
+                            "cloud": "digitalocean",
+                            "class": "cpu-regular",
+                            "price": "$0.500"
+                        }
+                    ]
+                },
+                {
+                    "serverclass": "mh.vs1.medium",
+                    "comparables": [
+                        {
+                            "cloud": "average",
+                            "price": "$0.053"
+                        },
+                        {
+                            "cloud": "aws",
+                            "class": "r4.large",
+                            "price": "$0.042"
+                        },
+                        {
+                            "cloud": "azure",
+                            "class": "E2s v5",
+                            "price": "$0.013"
+                        },
+                        {
+                            "cloud": "gcp",
+                            "class": "n2-highmem-2",
+                            "price": "$0.032"
+                        },
+                        {
+                            "cloud": "digitalocean",
+                            "class": "memory",
+                            "price": "$0.125"
+                        }
+                    ]
+                },
+                {
+                    "serverclass": "mh.vs1.large",
+                    "comparables": [
+                        {
+                            "cloud": "average",
+                            "price": "$0.107"
+                        },
+                        {
+                            "cloud": "aws",
+                            "class": "r4.xlarge",
+                            "price": "$0.091"
+                        },
+                        {
+                            "cloud": "azure",
+                            "class": "E4s v5",
+                            "price": "$0.025"
+                        },
+                        {
+                            "cloud": "gcp",
+                            "class": "n2-highmem-4",
+                            "price": "$0.063"
+                        },
+                        {
+                            "cloud": "digitalocean",
+                            "class": "memory",
+                            "price": "$0.250"
+                        }
+                    ]
+                },
+                {
+                    "serverclass": "mh.vs1.xlarge",
+                    "comparables": [
+                        {
+                            "cloud": "average",
+                            "price": "$0.217"
+                        },
+                        {
+                            "cloud": "aws",
+                            "class": "r4.2xlarge",
+                            "price": "$0.194"
+                        },
+                        {
+                            "cloud": "azure",
+                            "class": "E8s v5",
+                            "price": "$0.050"
+                        },
+                        {
+                            "cloud": "gcp",
+                            "class": "n2-highmem-8",
+                            "price": "$0.124"
+                        },
+                        {
+                            "cloud": "digitalocean",
+                            "class": "memory",
+                            "price": "$0.500"
+                        }
+                    ]
+                },
+                {
+                    "serverclass": "mh.vs1.2xlarge",
+                    "comparables": [
+                        {
+                            "cloud": "average",
+                            "price": "$0.431"
+                        },
+                        {
+                            "cloud": "aws",
+                            "class": "r4.4xlarge",
+                            "price": "$0.375"
+                        },
+                        {
+                            "cloud": "azure",
+                            "class": "E16s v5",
+                            "price": "$0.101"
+                        },
+                        {
+                            "cloud": "gcp",
+                            "class": "n2-highmem-16",
+                            "price": "$0.247"
+                        },
+                        {
+                            "cloud": "digitalocean",
+                            "class": "memory",
+                            "price": "$1.000"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

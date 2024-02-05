@@ -1,0 +1,34 @@
+Region: South Central US
+SKU Name             Retail Price   
+Standard_D8ps_v5     0.037          
+Standard_F4          0.02593        
+Standard_F2          0.012906       
+Standard_D4ps_v5     0.0185         
+Standard_F2s         0.012906       
+Standard_F16         0.1036         
+Standard_E16s_v5     0.131164       
+Standard_F8          0.051859       
+Standard_E2s_v5      0.016368       
+Standard_E4s_v5      0.032737       
+Standard_E8s_v5      0.065582       
+Standard_D16ps_v5    0.0739         
+Standard_A1_v2       0.0043         
+
+
+Region: East US
+SKU Name             Retail Price   
+Standard_E4s_v5      0.0252         
+Standard_A1_v2       0.0043         
+Standard_E16s_v5     0.1008         
+Standard_D16ps_v5    0.0616         
+Standard_F2s         0.012613       
+Standard_F2          0.012613       
+Standard_E2s_v5      0.0126         
+Standard_F16         0.10141        
+Standard_F4          0.025353       
+Standard_D4ps_v5     0.0154         
+Standard_E8s_v5      0.0504         
+Standard_D8ps_v5     0.0308         
+Standard_F8          0.050705       
+
+

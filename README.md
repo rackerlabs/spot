@@ -4,7 +4,7 @@
 
 Ask questions, get support, put in a feature request, provide feedback, or share what your working on with Spot. 
 
-## View the [Spot Roadmap](https://github.com/orgs/rackerlabs/projects/9)
+## View the [Spot Backlog](https://github.com/rackerlabs/spot/issues)
 
 See what's coming next with Spot and contribute to the roadmap.
 
